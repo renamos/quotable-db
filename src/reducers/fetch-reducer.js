@@ -16,6 +16,12 @@ export default (state=[], action)=>{
         case 'FETCH_QUOTE_REJECTED':
             return {data: null, error: action.payload, isFetched: true};
 
+        case 'FETCH_BOOK_PENDING':
+            return {isSending:true};
+        case 'FETCH_BOOK_FULFILLED':
+            return {data: action.payload.data.data, error: null, isFetched: true };
+        case 'FETCH_BOOK_REJECTED':
+            return {data: null, error: action.payload, isFetched: true};
 
         case 'FETCH_RANDOM_PENDING':
             return {isSending:true};

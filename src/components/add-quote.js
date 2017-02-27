@@ -30,11 +30,17 @@ class AddQuote extends Component {
         if(this.props.fetchResponse){
             fetchData = this.props.fetchResponse
         }
+        if(this.props.fetchResponse.isFetched){
+            this.refs.book.value = "";
+            this.refs.quote.value = "";
+            this.refs.author.value = "";
+
+        }
         return (
             <div id="add-quote-container">
             <div id="add-quote">
             <label>QUOTE</label>
-                <input ref="quote" type="text" placeholder="enter quote here"/>
+                <textarea ref="quote" placeholder="enter quote here"></textarea>
                 <label>AUTHOR</label>
                 <input ref="author" type="text" placeholder="enter author here"/>
                 <label>SOURCE</label>

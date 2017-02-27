@@ -18,6 +18,10 @@
     padding: 10px;
     border: none;
     border-radius: 3px; }
+  #add-quote textarea {
+    width: 314px;
+    max-width: 314px;
+    max-height: 120px; }
   #add-quote button {
     box-sizing: border-box;
     background: none;
