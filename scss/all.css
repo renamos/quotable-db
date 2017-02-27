@@ -158,6 +158,14 @@ main {
     margin: 0;
     padding: 0; }
 
+@media (max-width: 414px) {
+  .random {
+    margin: 1em; }
+    .random h1 {
+      font-size: 1.8em; }
+    .random p {
+      font-size: .8em; } }
+
 .quote {
   max-width: 300px;
   margin: 5px;

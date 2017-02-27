@@ -7,7 +7,7 @@ export default class Header extends Component {
         return (
             <div id="header">
                 <h2>QUOTABLE</h2>
-                <p>Search and store your favorite book quotes.</p>
+                <p>Search and store your favorite quotes.</p>
             </div>
         );
     }

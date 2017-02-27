@@ -96,8 +96,12 @@ cursor: pointer;
 
 @media(max-width: 414px){
   .random{
+    margin: 1em;
     h1{
-      font-size: 1em;
+      font-size: 1.8em;
+    }
+    p{
+      font-size: .8em;
     }
   }
 }
