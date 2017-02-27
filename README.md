@@ -1,5 +1,6 @@
-# Trader Joe's DB
+# Quotable
 
 
-###A User-Powered Trader Joe's DB###
+###Quotable is an app that allows you to post, share, and retrieve your favorite quotes from books, movies and beyond.###
 
+Live version: http://quotable.surge.sh/

@@ -37,8 +37,8 @@ class AddQuote extends Component {
                 <input ref="quote" type="text" placeholder="enter quote here"/>
                 <label>AUTHOR</label>
                 <input ref="author" type="text" placeholder="enter author here"/>
-                <label>BOOK</label>
-                <input ref="book" type="text" placeholder="enter book here"/>
+                <label>SOURCE</label>
+                <input ref="book" type="text" placeholder="enter source here"/>
                 <button onClick={this.addQuote.bind(this)}>submit</button>
             </div>
                 {fetchData.isSending ? <p>Sending...</p>
