@@ -23,7 +23,5 @@ Quotable is an app that allows you to post, share, and retrieve your favorite qu
 - Totally enhance the UX: There's a lot that can be done to improve the UX - allow users to save quotes, organize by customizable category, allow users to create quote collections to share...the list goes on.
  
 - Social media: Connect with Facebook and Twitter share quote as status or tweet. 
-
-- Allow users to update product status: Another really useful feature that would allow for a better user experience.
  
 
